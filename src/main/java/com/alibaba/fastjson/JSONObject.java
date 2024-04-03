@@ -102,9 +102,6 @@ public class JSONObject extends JSON implements Map<String, Object>, Cloneable, 
         return result;
     }
 
-    public boolean containsValue(Object value) {
-        return map.containsValue(value);
-    }
 
     public Object get(Object key) {
         Object val = map.get(key);
